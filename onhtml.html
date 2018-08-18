@@ -10,7 +10,7 @@ and open the template in the editor.
 
     <head>
 
-        <title>PONER NUESTRO NOMBRE Y APELLIDOS</title>
+        <title>Pedro Martínez Marín</title>
 
         <meta charset="UTF-8">
 
@@ -24,8 +24,12 @@ and open the template in the editor.
 La etiqueta div que viene ahora se subirá al servidor en una nueva versión--
 -->
 
-        <!--div borrado-->
-
+        <div>
+            <form method="POST" oninput="resultado.value=parseInt(valor1.value)+parseInt(valor2.value)">
+            <input type="number" id="valor1" value="0"> +
+            <input type="number" id="valor2" value="0"> =
+            <output name="resultado" for="valor1 valor2"></output>
+            </form>
+        </div>
     </body>
-
 </html>
